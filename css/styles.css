@@ -1,0 +1,89 @@
+*{
+    box-sizing: border-box;
+    color: #fff;
+    text-decoration: none;
+}
+
+body{
+    margin: 0;
+    background-color: purple;
+}
+
+main{
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+}
+
+.formulario{
+    margin: 20px 0;
+}
+
+.datos-1,
+.datos-2{
+    margin-bottom: 15px;
+}
+
+.datos-2{
+    margin-right: auto;
+}
+
+h1,
+h2,
+footer{
+    margin-left: 15px;
+}
+
+h3{
+    margin: 10px 0;
+}
+
+button{
+    background-color: red;
+    border-radius: 10px;
+    border: none;
+    padding: 10px 15px;
+}
+
+.lugares{
+    display: inline-block;
+    margin-right: 40px;
+}
+
+.lugares-origen{
+    width: 170px;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.lugares-destino{
+    width: 170px;
+    display: inline-block;
+}
+
+.input-fechas{
+    width: 70px;
+}
+
+.fechas{
+    display: inline-block;
+    margin-right: 40px;
+}
+
+.pasajero{
+    display: inline-block;
+    margin-right: 40px;
+}
+
+.buttom
+{
+    display: inline-block;
+}
+
+.descripcion{
+    margin-top: 0px;
+}
+
+footer{
+    padding-top: 10px;
+}

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>
+            Tarea de vuelos
+        </h1>
+    </header>
+    <hr>
+    <nav>
+        <h2>Algun menu de navegacion...</h2>
+    </nav>
+    <hr>
+    <main>
+        <form class="formulario">
+            <fieldset>
+                <legend>Datos del vuelo</legend>
+                <h3>Vuelos con reserva flexible</h3>
+                <div class="datos-1">
+                    <p class="descripcion">Encontra pasajes aereos con con la posiblidad de cambiar las fechas de vuelo.</p>
+                    <input type="radio" name="vuelo" value="Ida y vuelta" id="ida-y-vuelta" checked>
+                    <label for="ida-y-vuelta">Ida y vuelta</label>
+                    <input type="radio" name="vuelo" value="Solo ida" id="solo-ida">
+                    <label for="solo-ida">Solo ida</label>
+                    <input type="radio" name="vuelo" value="Multidestino" id="multidestino">
+                    <label for="multidestino">Multidestino</label>
+                </div>
+                <div class="datos-2">
+                    <div class="lugares">
+                        <div class="lugares-origen">
+                            <label for="origen">ORIGEN</label>
+                            <input type="text" id="origen" placeholder="Buenos Aires, Argentina" readonly>
+                        </div>
+                        <div class="lugares-destino">
+                            <label for="destino">DESTINO</label>
+                            <input type="text" id="destino" placeholder="Ingresa a donde viajar" readonly>
+                        </div>
+                    </div>
+                    <div class="fechas">
+                        <span>FECHAS</span>
+                        <input type="text" placeholder="Ida" readonly class="input-fechas">
+                        <input type="text" placeholder="Vuelta" readonly class="input-fechas">
+                        <div>
+                            <input type="checkbox" id="fecha">
+                            <label for="fecha">Todavia no he decidido la fecha</label>
+                        </div>
+                    </div>
+                    <div class="pasajero">
+                        <div>
+                            <label for="pasajero">PASAJEROS Y CLASES</label>
+                        </div>
+                        <input type="text" id="pasajero" placeholder="1 persona, economico" readonly>
+                    </div>
+                    <div class="buttom">
+                        <button>Buscar</button>
+                    </div>
+                </div>
+            </fieldset>
+        </form>
+    </main>
+    <hr>
+    <footer>
+        &copy; Testing...
+    </footer>
+</body>
+</html>
